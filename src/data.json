@@ -1,156 +1,170 @@
-
-    [
-      {
-         "name": "Mercury",
-         "overview": {
-            "content": "Mercury is the smallest and closest planet to the Sun. It has a thin exosphere and experiences extreme temperature variations.",
-            "structure": "Mercury has a large iron core, making up most of its interior, with a thin silicate crust and mantle.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Mercury's surface is heavily cratered, similar to the Moon, and features large cliffs called scarps formed by planetary contraction.",
-            "source": "NASA"
-         },
-         "rotation": "58.6 Earth days",
-         "revolution": "88 Earth days",
-         "radius_km": 2439.7,
-         "temperature_c": {
-            "min": -173,
-            "max": 427
-         }
-      },
-      {
-         "name": "Venus",
-         "overview": {
-            "content": "Venus is Earth's 'sister planet' in size but has a thick, toxic atmosphere of carbon dioxide, leading to extreme greenhouse effects.",
-            "structure": "Venus has a metal core, a rocky mantle, and a thick atmosphere that traps heat efficiently.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Venus' surface is covered with volcanoes, vast plains, and highland regions, shaped by tectonic and volcanic activity.",
-            "source": "NASA"
-         },
-         "rotation": "243 Earth days (retrograde)",
-         "revolution": "225 Earth days",
-         "radius_km": 6051.8,
-         "temperature_c": {
-            "min": 462,
-            "max": 462
-         }
-      },
-      {
-         "name": "Earth",
-         "overview": {
-            "content": "Earth is the only known planet to support life, with a balanced atmosphere of nitrogen and oxygen and vast oceans.",
-            "structure": "Earth has a solid iron-nickel core, a molten outer core, a silicate mantle, and a dynamic crust.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Earth's surface is constantly reshaped by plate tectonics, erosion, and volcanic activity.",
-            "source": "NASA"
-         },
-         "rotation": "24 hours",
-         "revolution": "365.25 days",
-         "radius_km": 6371,
-         "temperature_c": {
-            "min": -89.2,
-            "max": 56.7
-         }
-      },
-      {
-         "name": "Mars",
-         "overview": {
-            "content": "Mars, the 'Red Planet,' is known for its dusty, iron-rich surface and the tallest volcano in the solar system, Olympus Mons.",
-            "structure": "Mars has a core composed of iron, nickel, and sulfur, with a mantle and a thin crust.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Mars has vast deserts, deep canyons, and polar ice caps, with evidence of past liquid water.",
-            "source": "NASA"
-         },
-         "rotation": "24.6 hours",
-         "revolution": "687 Earth days",
-         "radius_km": 3389.5,
-         "temperature_c": {
-            "min": -140,
-            "max": 30
-         }
-      },
-      {
-         "name": "Jupiter",
-         "overview": {
-            "content": "Jupiter is the largest planet in the solar system, known for its Great Red Spot and strong magnetic field.",
-            "structure": "Jupiter is composed mainly of hydrogen and helium, with a possible rocky core surrounded by metallic hydrogen.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Jupiter lacks a solid surface, but its atmosphere has swirling clouds, storms, and deep cloud layers.",
-            "source": "NASA"
-         },
-         "rotation": "9.9 hours",
-         "revolution": "11.86 years",
-         "radius_km": 69911,
-         "temperature_c": {
-            "min": -145,
-            "max": -108
-         }
-      },
-      {
-         "name": "Saturn",
-         "overview": {
-            "content": "Saturn is famous for its magnificent ring system, made mostly of ice and rock particles.",
-            "structure": "Saturn has a similar composition to Jupiter, mainly hydrogen and helium, with a possible rocky core.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Saturn has a thick atmosphere of hydrogen and helium, with strong winds and storm systems.",
-            "source": "NASA"
-         },
-         "rotation": "10.7 hours",
-         "revolution": "29.46 years",
-         "radius_km": 58232,
-         "temperature_c": {
-            "min": -189,
-            "max": -139
-         }
-      },
-      {
-         "name": "Uranus",
-         "overview": {
-            "content": "Uranus is an ice giant with a unique sideways rotation, likely caused by a past collision.",
-            "structure": "Uranus has a rocky core surrounded by an icy mantle and a thick atmosphere of hydrogen, helium, and methane.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Uranus' atmosphere contains methane, which gives it a bluish color, and has extreme seasonal variations.",
-            "source": "NASA"
-         },
-         "rotation": "17.2 hours (retrograde)",
-         "revolution": "84 years",
-         "radius_km": 25362,
-         "temperature_c": {
-            "min": -224,
-            "max": -197
-         }
-      },
-      {
-         "name": "Neptune",
-         "overview": {
-            "content": "Neptune, the farthest planet from the Sun, is a deep blue ice giant with supersonic winds and a dynamic atmosphere.",
-            "structure": "Neptune has a small rocky core surrounded by water, ammonia, and methane ices, with a thick hydrogen-helium atmosphere.",
-            "source": "NASA"
-         },
-         "geology": {
-            "content": "Neptune’s atmosphere is active, with dark storms and high-speed winds, and it has a faint ring system.",
-            "source": "NASA"
-         },
-         "rotation": "16.1 hours",
-         "revolution": "164.8 years",
-         "radius_km": 24622,
-         "temperature_c": {
-            "min": -218,
-            "max": -200
-         }
-      }
-   ]
-
+[
+  {
+    "name": "Mercury",
+    "image": "/assets/planet-mercury.svg",
+    "width": 160,
+    "height": 160,
+    "overview": {
+      "content": "Mercury is the smallest and closest planet to the Sun. It has a thin exosphere and experiences extreme temperature variations.",
+      "structure": "Mercury has a large iron core, making up most of its interior, with a thin silicate crust and mantle.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Mercury's surface is heavily cratered, similar to the Moon, and features large cliffs called scarps formed by planetary contraction.",
+      "source": "NASA"
+    },
+    "rotation": "58.6 Earth days",
+    "revolution": "88 Earth days",
+    "radius_km": 2439.7,
+    "temperature_c": {
+      "average": 127
+    }
+  },
+  {
+    "name": "Venus",
+    "image": "/assets/planet-venus.svg",
+    "width": 300,
+    "height": 300,
+    "overview": {
+      "content": "Venus is Earth's 'sister planet' in size but has a thick, toxic atmosphere of carbon dioxide, leading to extreme greenhouse effects.",
+      "structure": "Venus has a metal core, a rocky mantle, and a thick atmosphere that traps heat efficiently.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Venus' surface is covered with volcanoes, vast plains, and highland regions, shaped by tectonic and volcanic activity.",
+      "source": "NASA"
+    },
+    "rotation": "243 Earth days",
+    "revolution": "225 Earth days",
+    "radius_km": 6051.8,
+    "temperature_c": {
+      "average": 462
+    }
+  },
+  {
+    "name": "Earth",
+    "image": "/assets/planet-earth.svg",
+    "width": 400,
+    "height": 400,
+    "overview": {
+      "content": "Earth is the only known planet to support life, with a balanced atmosphere of nitrogen and oxygen and vast oceans.",
+      "structure": "Earth has a solid iron-nickel core, a molten outer core, a silicate mantle, and a dynamic crust.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Earth's surface is constantly reshaped by plate tectonics, erosion, and volcanic activity.",
+      "source": "NASA"
+    },
+    "rotation": "24 hours",
+    "revolution": "365.25 days",
+    "radius_km": 6371,
+    "temperature_c": {
+      "average": -16.25
+    }
+  },
+  {
+    "name": "Mars",
+    "image": "/assets/planet-mars.svg",
+    "width": 250,
+    "height": 250,
+    "overview": {
+      "content": "Mars, the 'Red Planet,' is known for its dusty, iron-rich surface and the tallest volcano in the solar system, Olympus Mons.",
+      "structure": "Mars has a core composed of iron, nickel, and sulfur, with a mantle and a thin crust.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Mars has vast deserts, deep canyons, and polar ice caps, with evidence of past liquid water.",
+      "source": "NASA"
+    },
+    "rotation": "24.6 hours",
+    "revolution": "687 Earth days",
+    "radius_km": 3389.5,
+    "temperature_c": {
+      "average": -55
+    }
+  },
+  {
+    "name": "Jupiter",
+    "image": "/assets/planet-jupiter.svg",
+    "width": 500,
+    "height": 500,
+    "overview": {
+      "content": "Jupiter is the largest planet in the solar system, known for its Great Red Spot and strong magnetic field.",
+      "structure": "Jupiter is composed mainly of hydrogen and helium, with a possible rocky core surrounded by metallic hydrogen.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Jupiter lacks a solid surface, but its atmosphere has swirling clouds, storms, and deep cloud layers.",
+      "source": "NASA"
+    },
+    "rotation": "9.9 hours",
+    "revolution": "11.86 years",
+    "radius_km": 69911,
+    "temperature_c": {
+      "average": -126.5
+    }
+  },
+  {
+    "name": "Saturn",
+    "image": "/assets/planet-saturn.svg",
+    "width": 500,
+    "height": 500,
+    "overview": {
+      "content": "Saturn is famous for its magnificent ring system, made mostly of ice and rock particles.",
+      "structure": "Saturn has a similar composition to Jupiter, mainly hydrogen and helium, with a possible rocky core.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Saturn has a thick atmosphere of hydrogen and helium, with strong winds and storm systems.",
+      "source": "NASA"
+    },
+    "rotation": "10.7 hours",
+    "revolution": "29.46 years",
+    "radius_km": 58232,
+    "temperature_c": {
+      "average": -164
+    }
+  },
+  {
+    "name": "Uranus",
+    "image": "/assets/planet-uranus.svg",
+    "width": 450,
+    "height": 450,
+    "overview": {
+      "content": "Uranus is an ice giant with a unique sideways rotation, likely caused by a past collision.",
+      "structure": "Uranus has a rocky core surrounded by an icy mantle and a thick atmosphere of hydrogen, helium, and methane.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Uranus' atmosphere contains methane, which gives it a bluish color, and has extreme seasonal variations.",
+      "source": "NASA"
+    },
+    "rotation": "17.2 hours",
+    "revolution": "84 years",
+    "radius_km": 25362,
+    "temperature_c": {
+      "average": -210.5
+    }
+  },
+  {
+    "name": "Neptune",
+    "image": "/assets/planet-neptune.svg",
+    "width": 440,
+    "height": 440,
+    "overview": {
+      "content": "Neptune, the farthest planet from the Sun, is a deep blue ice giant with supersonic winds and a dynamic atmosphere.",
+      "structure": "Neptune has a small rocky core surrounded by water, ammonia, and methane ices, with a thick hydrogen-helium atmosphere.",
+      "source": "NASA"
+    },
+    "geology": {
+      "content": "Neptune’s atmosphere is active, with dark storms and high-speed winds, and it has a faint ring system.",
+      "source": "NASA"
+    },
+    "rotation": "16.1 hours",
+    "revolution": "164.8 years",
+    "radius_km": 24622,
+    "temperature_c": {
+      "average": -209
+    }
+  }
+]
