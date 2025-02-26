@@ -1,11 +1,23 @@
 import { useParams } from "react-router-dom";
 import data from "../data.json";
 import "./Planet.css";
+import { useState } from "react";
 
 export default function Planet() {
   const { planetName } = useParams();
   const planetToShow =
     data.find((planet) => planet.name === planetName) || data[2];
+
+  const [info, SetInfo] = useState<"overview" | "structure" | "geology">(
+    "overview"
+  );
+
+  const content = {
+    overview: planetToShow?.overview.content,
+    structure: planetToShow?.overview.structure,
+    geology: planetToShow?.geology.content,
+  };
+
   return (
     <div className="flex flex-col  items-center mt-[127px]">
       <div className="flex items-center justify-center   mb-[87px] gap-[220px]">
@@ -26,7 +38,7 @@ export default function Planet() {
 
           <div className="h-[75px] flex items-center">
             <p className="text-[#fff] text-[14px] font-normal leading-[25px]">
-              {planetToShow?.overview.content}
+              {content[info]}
             </p>
           </div>
 
@@ -36,16 +48,23 @@ export default function Planet() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-[16px] mb-[56px]">
-            <button className="Btn">
+          <div className="flex flex-col gap-[16px] mb-[56px] bg-}">
+            <button
+              onClick={() => SetInfo("overview")}
+              className={`Btn ${
+                info === "overview" ? "bg-[#419EBB]" : ""
+              }`}
+            >
               {" "}
               <span className="BtnSpan">01</span>Overview
             </button>
-            <button className="Btn">
+
+            <button onClick={() => SetInfo("structure")} className="Btn">
               {" "}
               <span className="BtnSpan">02</span>INTERNAL STRUCTURE
             </button>
-            <button className="Btn">
+
+            <button onClick={() => SetInfo("geology")} className="Btn">
               {" "}
               <span className="BtnSpan">03</span>
               SURFACE GEOLOGY
@@ -58,14 +77,17 @@ export default function Planet() {
           <span className="DetailsSpan">ROTATION TIME</span>{" "}
           <p className="DetailsP">{planetToShow?.rotation}</p>
         </div>
+
         <div className="Details">
           <span className="DetailsSpan">REVOLUTION TIME</span>{" "}
           <p className="DetailsP">{planetToShow?.revolution}</p>
         </div>
+
         <div className="Details">
           <span className="DetailsSpan">radius</span>{" "}
           <p className="DetailsP">{planetToShow?.radius_km} KM</p>
         </div>
+
         <div className="Details">
           <span className="DetailsSpan">AVERAGE TEMP.</span>{" "}
           <p className="DetailsP">
