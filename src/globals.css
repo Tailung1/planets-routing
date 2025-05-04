@@ -17,7 +17,7 @@ img {
   @apply text-[#fff] text-xs font-bold leading-[25px] tracking-[1px] uppercase;
 }
 .Src {
-  @apply flex  text-[#fff]  text-[14px] font-normal leading-[25px] opacity-50 mt-[24px] mb-[39px]  ;
+  @apply flex  text-[#fff]  text-[14px] font-normal leading-[25px] opacity-50 mt-[24px] mb-[39px];
 }
 .Btn {
   @apply w-[350px] bg-[#1e1e62] focus:bg-[#419EBB]  text-white text-xs font-bold tracking-widest leading-6 py-3 pl-[28px]  flex items-center gap-[28px];
@@ -26,18 +26,17 @@ img {
   @apply text-white font-bold text-[12px] leading-[25px] tracking-[2.571px] uppercase opacity-50;
 }
 .Details {
-    @apply w-[255px] border-opacity-20 border border-solid border-[#FFF] flex flex-col gap-[4px] items-start pt-[20px] pb-[27px] pl-[23px];
+  @apply w-[255px] border-opacity-20 border border-solid border-[#FFF] flex flex-col gap-[4px] items-start pt-[20px] pb-[27px] pl-[23px];
 }
 .DetailsSpan {
-    @apply text-white font-sans text-[11px] font-bold leading-[25px] tracking-[1px] uppercase opacity-50;
+  @apply text-white font-sans text-[11px] font-bold leading-[25px] tracking-[1px] uppercase opacity-50;
 }
 .DetailsP {
-    @apply text-white font-antonio text-[40px] font-normal leading-normal tracking-[-1.5px] uppercase
-
+  @apply text-white font-antonio text-[40px] font-normal leading-normal tracking-[-1.5px] uppercase;
 }
 
 .image-container {
-  width: 400px;  /* Same width as the image */
+  width: 400px; /* Same width as the image */
   height: 400px; /* Same height as the image */
   max-width: 100%;
   max-height: 100%;
